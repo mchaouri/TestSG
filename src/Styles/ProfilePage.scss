@@ -1,0 +1,69 @@
+.Card{
+	    width: 434px;
+	    height: 478px;
+	    position: absolute;
+	    left: 743px;
+	    top: 339px;
+	    background-color: rgba(255, 255, 255, 1);
+	    border-radius: 7px;
+
+	    p{
+	    width: 350px;
+	    height: 92px;
+	    position: absolute;
+	    left: 42.5px;
+	    top: 175.5px;
+	    text-align: center;
+	    font-size: 17px;
+	    }
+
+	    button{
+	        width: 160px;
+	        height: 55px;
+	        position: absolute;
+	        left: 137px;
+	        top: 328px;
+	        border-radius: 33px;
+	        background-color: rgba(233, 29, 61, 0.05);
+	        border-width: 1px;
+	        border-color:rgba(233, 29, 61, 1);
+	        color: rgba(233, 29, 61, 1);
+	        text-align: center;
+	        font-size: 15px;
+	        text-transform: uppercase;
+	        outline:0;
+	    }
+
+	    a{
+	       width: 144px;
+	       height: 22px;
+	       position: absolute;
+	       left: 145px;
+	       top: 413px;
+	       color: rgba(245, 88, 113, 1);
+	       font-size: 16px;
+	       text-align: center;
+	    }
+}
+
+.nameLabel{
+	    width: 160px;
+	    height: 30px;
+	    position: absolute;
+	    left: 137px;
+	    top: 95px;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 22px;
+	    white-space: nowrap;
+}
+.cityLabel{
+	    width: 130px;
+	    height: 25px;
+	    position: absolute;
+	    left: 152px;
+	    top: 130px;
+	    text-align: center;
+	    font-weight: 900;
+	    font-size: 18px;
+}

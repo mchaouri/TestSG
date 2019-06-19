@@ -1,0 +1,99 @@
+.Login{
+	width: 1920px;
+	height: 1080px;
+	display: flex;
+	background-color:#F7F9FA;
+
+	img{
+	    width: 150px;
+	    height: 150px;
+	    position: absolute;
+	    left: 137px;
+	    top: -74px;
+      border-radius: 100px;
+	}
+}
+.LoginForm{
+	
+	width: 560px;
+	height: 478px;
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+    left: 680px;
+    top: 301px;
+    box-shadow: rgba(165, 175, 186, 0.16) 0px 3px 10px;
+    border-radius: 5px;
+
+    label{
+            font-size: 20px;
+            position: absolute;
+            height: 33px;
+            left: 115px;
+            top: 40px;
+    }
+    span{
+          color:rgba(51, 51, 51, 0.58);
+          position: absolute;
+          z-index: 1;
+          left: 48px;
+    }
+    input {
+         width: 480px;
+	       height: 80px;
+	       border-radius: 5px;
+         padding: 0px 0px 0px 17px;
+	       box-shadow: rgba(165, 175, 186, 0.42) 0px 1px 5px;
+	       position: absolute;
+	       border: 1px;
+	       left: 31px;
+         font-siz: 18px;
+    }
+    input::placeholder{
+         width: 17px;
+         height: 23px;
+         position: absolute;
+         color: rgba(51, 51, 51, 0.58);
+
+    }
+    input:focus {
+         padding: 0px 0px 0px 17px;
+    }
+    input[type="email"]{
+          top: 113px;
+    }
+    input[type="password"]{
+          top: 213px;
+    }
+    button{
+             width: 228px;
+             height: 65px;
+             position: absolute;
+             left: 166px;
+             top: 322px;
+             background-color: rgba(233, 29, 61, 0.05);
+             border-width: 1px;
+             border-color: rgba(233, 29, 61, 1);
+             border-radius: 33px;
+             color: #E91D3D;
+             font-size: 15px;
+             text-transform: uppercase;
+             font-weight: bold;
+             outline:0;
+    }
+    a{
+      width: 166px;
+      height: 22px;
+      position: absolute;
+      left: 201px;
+      top: 418px;
+      font-size: 16px;
+      color: rgba(245, 88, 113, 1);
+    }
+}
+.emailSpan{
+            top: 119px;
+}
+.passSpan{
+            top: 227px; 
+
+}

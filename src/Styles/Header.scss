@@ -1,0 +1,61 @@
+.header{
+      width: 1920px;
+      height: 90px;
+      background-color: #FFFFFF;
+      box-shadow: #A5AFBA 0px 3px 10px;
+}
+.logo{
+	width: 144px;
+	height: 28.29px;
+	position: absolute;
+    left: 100px;
+    top: 26px;	
+}
+.Identifier{
+    width: 160px;
+	height: 55px;
+	position: absolute;
+    left: 1476px;
+    top: 18px;
+    background-color: rgba(233, 29, 61, 0.01);
+    box-shadow: rgba(233, 29, 61, 0.03) 0px 5px 20px;
+    color: #E91D3D;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    outline:0;
+    text-decoration: underline;
+}
+.inscrire{
+    width: 160px;
+    height: 55px;
+    position: absolute;
+    left: 1652px;
+    top: 18px;
+    background-color: rgba(233, 29, 61, 0.05);
+    border-width: 1px;
+    border-color: rgba(233, 29, 61, 1);
+    border-radius: 33px;
+    color: #E91D3D;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline:0;
+}
+.inscrire-clicked{
+        background-color: rgba(233, 29, 61, 1);
+        width: 160px;
+        height: 55px;
+        position: absolute;
+        left: 1652px;
+        top: 18px;
+        border-width: 1px;
+        border-color: rgba(233, 29, 61, 1);
+        border-radius: 33px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        outline:0;
+      }
